@@ -75,10 +75,6 @@ body {
     display: none;
 }
 
-.bg-black.active {
-    display: block;
-}
-
 .btn-outline-light {
     background-color: white;
     color: black;
@@ -722,6 +718,10 @@ body {
         height: 72px;
     }
 
+    .bg-black.active {
+        display: block;
+    }
+
     .navbar-menu {
         position: fixed;
         background: #ffffff;
@@ -814,7 +814,8 @@ body {
         gap: 40px;
         align-items: start;
     }
-    .footer-menu{
+
+    .footer-menu {
         margin: 0;
     }
 }
