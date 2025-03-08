@@ -428,6 +428,9 @@ body {
     visibility: hidden;
     transform: translateX(0) translateY(64px);
     transition-duration: 0.3s;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 }
 
 .how-image-wrapper img.active {
@@ -445,6 +448,9 @@ body {
     bottom: -42%;
     justify-self: anchor-center;
     z-index: 0;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 }
 
 .how-item {
@@ -506,6 +512,9 @@ body {
     bottom: -42%;
     justify-self: anchor-center;
     z-index: 0;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 }
 
 .how-wrapper:nth-child(2) .how-image-text {
@@ -852,6 +861,9 @@ body {
     .banner-images {
         width: 90%;
         justify-self: anchor-center;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
     }
 
 }
